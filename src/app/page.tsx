@@ -41,7 +41,7 @@ export default function Home() {
           {/* Visual Hero Image */}
           <div className="flex-1 relative w-full aspect-[4/3] md:h-[500px] rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-100 group">
              <Image 
-               src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=2000&auto=format&fit=crop"
+               src="/images/official-hero.jpg"
                alt="Kinésithérapeute aidant une personne âgée à marcher à domicile"
                fill
                className="object-cover"
@@ -135,7 +135,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             {t.patients.cards.map((card, idx) => {
               const icons = [UserCheck, Stethoscope, Heart];
-              const images = ["/images/senior-v2.jpg", "/images/postop-v2.jpg", "/images/chronic-v2.jpg"];
+              const images = ["/images/official-senior.jpg", "/images/official-knee.jpg", "/images/official-trust.jpg"];
               const Icon = icons[idx];
               
               return (
@@ -148,7 +148,7 @@ export default function Home() {
                       fill
                       className="object-cover transition-transform duration-500 group-hover:scale-105"
                     />
-                    <div className="absolute inset-0 bg-medical-blue/20 mix-blend-multiply"></div>
+                    <div className="absolute inset-0 bg-transparent"></div>
                     <div className={`absolute top-4 ${isRTL ? 'right-4' : 'left-4'} bg-white/90 backdrop-blur-sm w-12 h-12 rounded-xl flex items-center justify-center text-medical-blue shadow-sm`}>
                       <Icon size={24} />
                     </div>
@@ -228,7 +228,7 @@ export default function Home() {
               <div className="space-y-4 mt-8">
                  <div className="aspect-[3/4] bg-slate-100 rounded-2xl relative overflow-hidden shadow-md">
                    <Image 
-                     src="/images/trust-doctor.jpg"
+                     src="/images/doctor-v2.jpg"
                      alt="Médecin expliquant un traitement avec bienveillance"
                      fill
                      className="object-cover"
@@ -237,12 +237,12 @@ export default function Home() {
               </div>
               <div className="space-y-4">
                  <div className="aspect-square bg-blue-50 rounded-2xl relative overflow-hidden flex items-center justify-center border border-blue-100">
-                    <div className="text-medical-blue font-bold text-4xl">{t.atmosphere.exp_years}</div>
+                    <div className="text-medical-blue font-bold text-3xl px-4 text-center leading-tight">{t.atmosphere.exp_years}</div>
                     <div className="absolute bottom-4 text-sm text-blue-800 font-medium">{t.atmosphere.exp_text}</div>
                  </div>
                  <div className="aspect-[3/4] bg-slate-100 rounded-2xl relative overflow-hidden shadow-md">
                     <Image 
-                      src="/images/trust-hand.jpg"
+                      src="/images/official-trust.jpg"
                       alt="Geste rassurant d'un soignant sur l'épaule d'un patient"
                       fill
                       className="object-cover"

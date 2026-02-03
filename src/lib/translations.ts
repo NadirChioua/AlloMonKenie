@@ -19,7 +19,7 @@ export const translations = {
       badge: "Service agréé et conventionné",
       title_1: "Votre kinésithérapeute",
       title_2: "vient à vous à Tanger",
-      desc: "Des soins doux et professionnels, directement chez vous à Tanger. Nous venons à votre domicile pour vous aider à aller mieux, à votre rythme.",
+      desc: "Des soins de kinésithérapie à domicile, assurés par des professionnels qualifiés à Tanger. Nous intervenons chez vous pour une prise en charge personnalisée, respectueuse de votre état, de votre confort et de votre rythme de récupération.",
       cta_primary: "Prendre rendez-vous",
       cta_secondary: "Découvrir nos soins",
       review: "Merci pour votre patience et votre douceur.",
@@ -70,10 +70,11 @@ export const translations = {
         "Nous prenons le temps qu'il faut",
         "Nous expliquons tout simplement",
         "Nous respectons votre douleur",
-        "Nous parlons avec votre médecin"
+        "Nous parlons avec votre médecin",
+        "Équipe mixte : Kinésithérapeutes Hommes & Femmes disponibles"
       ],
-      exp_years: "10+",
-      exp_text: "Années d'expérience"
+      exp_years: "Pro",
+      exp_text: "Équipe Qualifiée"
     },
     cta_section: {
       title: "Besoin d'un kiné rapidement à Tanger ?",
@@ -191,7 +192,7 @@ export const translations = {
       badge: "خدمة معتمدة ومرخصة",
       title_1: "أخصائي العلاج الطبيعي",
       title_2: "يأتي إليك في طنجة",
-      desc: "رعاية طبية لطيفة واحترافية، مباشرة في منزلك بطنجة. نأتي إليك لمساعدتك على التحسن والتعافي، وفقًا لوتيرتك الخاصة.",
+      desc: "علاجات ترويض طبي منزلي في طنجة، يقدمها أخصائيون مؤهلون. نتدخل في منزلك لرعاية شخصية تحترم حالتك وراحتك ووتيرة تعافيك.",
       cta_primary: "احجز موعدك الآن",
       cta_secondary: "اكتشف علاجاتنا",
       review: "شكراً لكم على صبركم ولطفكم.",
@@ -242,10 +243,11 @@ export const translations = {
         "نأخذ الوقت اللازم لك",
         "نشرح كل شيء ببساطة",
         "نحترم ونقدر ألمك",
-        "نتحدث مع طبيبك المعالج"
+        "نتحدث مع طبيبك المعالج",
+        "فريق مختلط: أخصائيون وأخصائيات علاج طبيعي رهن إشارتكم"
       ],
-      exp_years: "+10",
-      exp_text: "سنوات من الخبرة"
+      exp_years: "مؤهل",
+      exp_text: "فريق محترف"
     },
     cta_section: {
       title: "هل تحتاج إلى أخصائي علاج طبيعي بسرعة في طنجة؟",
